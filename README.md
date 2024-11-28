@@ -11,7 +11,7 @@ Paxis is a governance model that:
 - Utilizes blockchain for transparent decision-making and societal contributions tracking.
 - Leverages AI to provide evidence-based policy recommendations and simulations.
 
-Explore our [Whitepaper](./Evolving_Governance_Whitepaper.pdf) for a detailed explanation of our ideas and framework.
+Explore our [Whitepaper](./paxis-initiative-whitepaper.md) for a detailed explanation of our ideas and framework.
 
 ---
 
@@ -28,10 +28,10 @@ Together, we can redefine governance for the challenges of the 21st century.
 ## **Getting Started**
 ### **1. Visit the Website**
 Explore our initiative online:  
-[**Paxis Website**](https://your-github-username.github.io/your-repository-name)
+[**Paxis Website**](https://mazyakakun.github.io/paxis-initiative/)
 
 ### **2. Download the Whitepaper**
-Download and read the [Whitepaper](./Evolving_Governance_Whitepaper.pdf) to dive deeper into our governance model.
+Download and read the [Whitepaper](./paxis-initiative-whitepaper.md) to dive deeper into our governance model.
 
 ### **3. Join the Community**
 Contribute your thoughts and expertise to refine our model:
@@ -47,7 +47,7 @@ We welcome contributions from everyone! Here's how you can get involved:
 1. **Fork the Repository**: Click the "Fork" button in the top-right corner of this page.
 2. **Clone Your Fork**:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/MaZyAkAkUn/paxis-initiative.git
    cd your-repository-name
    ```
 3. **Create a New Branch**:
