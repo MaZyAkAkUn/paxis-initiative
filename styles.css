@@ -1,4 +1,4 @@
-
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,30 +7,66 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
-header {
-    background: #333;
+header.hero {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
     color: #fff;
-    padding: 10px 20px;
     text-align: center;
+    padding: 50px 20px;
 }
-header h1 {
+header.hero h1 {
+    font-size: 3rem;
     margin: 0;
 }
-main {
+header.hero p {
+    font-size: 1.5rem;
+}
+header.hero .cta-buttons {
+    margin-top: 20px;
+}
+header.hero .btn {
+    text-decoration: none;
+    background: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+header.hero .btn:hover {
+    background: #e68a00;
+}
+section {
     padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+section.features .feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section.features .feature {
+    flex: 1;
+    margin: 10px;
+    max-width: 200px;
+}
+section.features img {
+    width: 50px;
+    height: 50px;
 }
 footer {
-    text-align: center;
-    background: #333;
+    background: #2c3e50;
     color: #fff;
+    text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
-a {
-    color: #0066cc;
+footer a {
+    color: #ff9900;
+    text-decoration: none;
 }
-a:hover {
-    color: #00509e;
+footer a:hover {
+    text-decoration: underline;
 }
